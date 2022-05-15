@@ -1,0 +1,48 @@
+button[type="button"] {
+  width: 70px;
+  height: 30px;
+  color: red;
+  margin-left: 5px;
+  /* display: block; */
+  /* button is display:inline-block. so when a row is filled full with buttons , it will go to second row.  */
+}
+/* button[type="button"]:last-of-type {
+  margin-right: 15px;
+}
+button[type="button"]:first-of-type {
+  margin-left: 15px;
+} */
+button[type="button"]:focus {
+  color: gray;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.outter {
+  display: flex;
+  align-items: center;
+}
+.times-container {
+  display: flex;
+  align-items: center;
+  width: 250px;
+  background-color: gray;
+  overflow: hidden;
+  position: relative;
+}
+.times-container.center {
+  justify-content: center;
+}
+.control {
+  position: relative;
+}
+
+.times {
+  display: flex;
+  width: max-content;
+
+  /* So if you want to make elements full with a row and come out the max-width, you need to use flex.; */
+}
